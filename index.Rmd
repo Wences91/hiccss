@@ -4,9 +4,9 @@ author: 'Wenceslao Arroyo-Machado'
 date: "`r Sys.Date()`"
 knit: 'bookdown::render_book'
 documentclass: book
-output: bookdown::gitbook
 site: bookdown::bookdown_site
-#∫bibliography: referencias.bib
+output: bookdown::gitbook
+#bibliography: referencias.bib
 biblio-style: 'apalike'
 description: |
   Libro de la asignatura.
@@ -17,6 +17,8 @@ url: 'https\://Wences91.github.io/hiccss/'
 ```{r setup, include=FALSE}
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ```
+
+# Introducción {-}
 
 Material de la asignatura.
 
